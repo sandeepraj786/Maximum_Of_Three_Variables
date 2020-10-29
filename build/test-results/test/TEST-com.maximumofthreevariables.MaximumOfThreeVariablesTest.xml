@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.maximumofthreevariables.MaximumOfThreeVariablesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-29T06:29:00" hostname="SANDEEP" time="0.011">
+  <properties/>
+  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.011"/>
+  <system-out><![CDATA[200
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
