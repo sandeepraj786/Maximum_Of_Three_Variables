@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maximumofthreevariables.MaximumOfThreeVariablesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-29T07:10:38" hostname="SANDEEP" time="0.025">
+<testsuite name="com.maximumofthreevariables.MaximumOfThreeVariablesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-10-29T08:01:43" hostname="SANDEEP" time="0.027">
   <properties/>
-  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.005"/>
-  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.0"/>
-  <testcase name="givenThreeFloatValues_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.001"/>
+  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.002"/>
+  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.005"/>
+  <testcase name="givenThreeFloatValues_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.0"/>
   <testcase name="givenThreeFloatValues_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.0"/>
-  <testcase name="givenThreeFloatValues_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.0"/>
-  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.001"/>
-  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.002"/>
-  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.007"/>
-  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.002"/>
-  <system-out><![CDATA[15
-200
+  <testcase name="givenThreeFloatValues_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.001"/>
+  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnFirstPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.002"/>
+  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnThirdPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.004"/>
+  <testcase name="givenThreeStrings_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.001"/>
+  <testcase name="givenThreeIntegers_WhenMaximumFound_ShouldReturnSecondPositionValue" classname="com.maximumofthreevariables.MaximumOfThreeVariablesTest" time="0.001"/>
+  <system-out><![CDATA[200
 peach
 150
 ]]></system-out>
