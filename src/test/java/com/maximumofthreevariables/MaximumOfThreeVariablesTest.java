@@ -68,4 +68,10 @@ public class MaximumOfThreeVariablesTest {
         String maximumValue = (String) maximumOfThreeVariables.testMaximum();
         Assert.assertEquals((Object) "peach",maximumValue);
     }
+    @Test
+    public void givenMoreThanThreeStrings_WhenMaximumFound_ShouldReturnFirstPositionValue() {
+        MaximumOfThreeVariables maximumOfThreeVariables = new MaximumOfThreeVariables("peach", "apple","banana", "mango","papaya");
+        String maximumValue = (String) maximumOfThreeVariables.testMaximum();
+        Assert.assertEquals((Object) "peach",maximumValue);
+    }
 }
