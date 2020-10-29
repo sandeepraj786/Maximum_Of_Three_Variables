@@ -28,4 +28,24 @@ public class MaximumOfThreeVariablesTest {
         Assert.assertEquals((Object) 200,maximumValue);
 
     }
+
+    @Test
+    public void givenThreeFloatValues_WhenMaximumFound_ShouldReturnFirstPositionValue() {
+        MaximumOfThreeVariables maximumOfThreeVariables = new MaximumOfThreeVariables();
+        Float maximumValue = maximumOfThreeVariables.findMaximumValue(3.3f, 2.2f, 1.1f);
+        Assert.assertEquals((Object) 3.3f,maximumValue);
+    }
+
+    @Test
+    public void givenThreeFloatValues_WhenMaximumFound_ShouldReturnSecondPositionValue() {
+        MaximumOfThreeVariables maximumOfThreeVariables = new MaximumOfThreeVariables();
+        Float maximumValue = maximumOfThreeVariables.findMaximumValue(1.1f, 3.3f, 2.2f);
+        Assert.assertEquals((Object) 3.3f,maximumValue);
+    }
+    @Test
+    public void givenThreeFloatValues_WhenMaximumFound_ShouldReturnThirdPositionValue() {
+        MaximumOfThreeVariables maximumOfThreeVariables = new MaximumOfThreeVariables();
+        Float maximumValue = maximumOfThreeVariables.findMaximumValue(1.1f, 2.2f, 3.3f);
+        Assert.assertEquals((Object) 3.3f,maximumValue);
+    }
 }
